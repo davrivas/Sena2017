@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Validación</title>
+</head>
+<body>
+    <section class="container">
+        <article class="row mt-3">
+            <div class="col">
+                <h1 class="text-center">Sistema de producción de autolavado</h1>
+            </div>
+        </article>
+    </section>
+
+    <hr>
+
+    <section class="container">
+        <article class="row mt-3 d-flex justify-content-md-center">
+            <div class="col col-md-6 shadow wall">
+               <form id="formulario" action="" method="post">
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" placeholder="example@gmail.com" name="correo" id="correo" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contrasena">Contraseña</label>
+                        <input type="password" placeholder="Digite su contraseña" name="contrasena" id="contrasena" class="form-control" required>
+                    </div>
+                    <!-- <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="paises">País</label>
+                        <select name="paises" id="´paises" class="form-control">
+                            <option value="colombia">Colombia</option>
+                            <option value="mexico">México</option>
+                            <option value="argentina">Argentina</option>
+                        </select>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check label">
+                            <input type="radio" name="hombre" class="m-2">Hombre
+                        </label>
+                        <label class="form-check label">
+                            <input type="radio" name="mujer" class="m-2">Mujer
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label for="" class="form-check label">
+                            terminos
+                        </label>
+                    </div> -->
+
+                    <input type="submit" value="Iniciar sesión" name="iniciar" id="iniciar" class="btn btn-block btn-primary" onclick="validacion()">
+               </form>
+            </div>
+        </article>
+    </section>
+    
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

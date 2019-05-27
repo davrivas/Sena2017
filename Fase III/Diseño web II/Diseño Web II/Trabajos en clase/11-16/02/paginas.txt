@@ -1,0 +1,5 @@
+http://api.jquery.com/append/
+appendTo
+https://www.google.com.co/search?q=jquery+parent&oq=jquery+parent&aqs=chrome..69i57j0l5.2558j0j7&sourceid=chrome&ie=UTF-8
+https://www.google.com.co/search?q=jquery+%24(this)&oq=jquery+%24(this)&aqs=chrome..69i57j0l5.5801j0j7&sourceid=chrome&ie=UTF-8
+https://www.google.com.co/search?ei=SqINWrSJC4jQmAHEgKToAw&q=function+inside+html+action+jquery&oq=function+inside+html+action+jquery&gs_l=psy-ab.3...33256.34296.0.34619.7.7.0.0.0.0.314.924.0j2j1j1.4.0....0...1.1.64.psy-ab..4.1.189...35i39k1j0i8i13i30k1.0.-mKkpKb_qd4

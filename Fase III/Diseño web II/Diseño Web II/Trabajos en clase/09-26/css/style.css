@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+#container {
+    width: 80%;
+}
+
+h1 {
+    color: skyblue;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 25px;
+}
+
+.repetir {
+    margin-left: 25px;
+    color: #fff;
+}

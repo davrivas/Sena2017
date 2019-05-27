@@ -1,0 +1,8 @@
+.shadow {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .5);
+}
+
+.wall {
+    padding: 20px 50px;
+    color: #000;
+}

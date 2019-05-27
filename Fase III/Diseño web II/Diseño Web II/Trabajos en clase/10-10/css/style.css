@@ -1,0 +1,22 @@
+* {
+    /* background-color: #f2f2f2; */
+}
+
+.row{
+    background: #ccc;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.col {
+    background: #111;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.margen {
+    margin-left: 100px;
+}
