@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Titilium Web";
+    src: url(../fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+body {
+    background-color: #e9e9e9;
+    font-family: 'Archivo', sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+/* Header */
+
+header {
+    background-image: url(../images/dramatic.jpg);
+    /*background-color: #ff0;*/
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed; /* Efecto parallax */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+}
+
+.titulo {
+    background-color: rgba(0,0,0,.5);
+    width: 60%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo h1 {
+    color: #fff;
+    font-size: 5em;
+    margin: 0;
+    margin-top: 100px;
+    font-family: "Tahoma";
+}
+
+.titulo h3 {
+    color: #fff;
+    font-size: 6em;
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: "Titilium Web";
+}
+
+.boton {
+    border: none;
+    background-color: rgba(0,0,0,.2);
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 7px 12px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.boton:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .3s;
+}
+
+header nav {
+    width: 40%;
+    height: 600px;
+    background-color: rgba(0,0,0,.8);
+    padding-right: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header nav li {
+    list-style: none;
+}
+
+header nav li a:hover {
+    background-color: rgba(256,256,256,.8);
+    color: #000 !important;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+}
+
+/* Nosotros */
+
+.nosotros {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nosotros h3, p {
+    padding: 15px;
+}
+
+.nosotrosA {
+    background-color: #fff;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.subtitulo {
+    color: #505050;
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.img {
+    height: 280px;
+    background-image: url(../images/street.jpg);
+    background-size: 100% 100%;
+    padding: 0;
+}
+
+.color {
+    background-color: #333;
+    color: #d8c8c8;
+}
+
+.nosotrosB {
+    width: 20%;
+    background-color: #555;
+    color: #d8c8c8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nosotrosC {
+    width: 15%;
+    color: #555;
+}
+
+/* Intermedio 1 */
+
+.intermedio1 {
+    background-image: url(../images/street.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 300px;
+}
+
+.intermedio {
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.opacidad {
+    background-image: 
+    width: 100%;
+    height: 500px;
+}
+
+.container {
+    background-color: rgba(0,0,0,.6);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h2 {
+    font-size: 3em;
+    margin-bottom: 80px;
+    align-items: 
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: none;
+}
+
+.boton2 {
+    border: none;
+    background-color: #484848;
+    padding: 10px;
+    color: #fff;
+    margin-top: 50px;
+    width: 400px;
+}

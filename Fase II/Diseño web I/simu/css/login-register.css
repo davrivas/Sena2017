@@ -1,0 +1,108 @@
+@font-face {
+	font-family: "Titilium Web";
+	src: url(../fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Titilium Web";
+	border: none;
+}
+
+#contenedor {
+	width: 80%;
+	height: 900px;
+	display: flex;
+	margin: 15px auto;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#izq {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 30%;
+	padding: 15px;
+}
+
+#principal {
+	border: 1px #444 solid;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+#privacy {
+	color: #334d99;
+	text-decoration: underline;
+}
+
+form, fieldset {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+form {
+	padding: 25px;
+	border: 1px #444 solid;
+	border-radius: 5px;
+}
+
+fieldset {
+	margin-top: 15px;
+}
+
+form h2 {
+	margin-bottom: 12pt;
+}
+
+input, select {
+	margin: 5px;
+	border: 1px solid #444;
+	padding: 5px;
+	width: 200px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #555;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+input::placeholder {
+	color: #666;
+}
+
+label {
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	margin: 20px;
+	background-color: #334d99;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	width: 100px;
+	transition: .3s;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #000;
+}
+
+button:hover {
+	background-color: rgba(51,77,153,.9);
+}
+
+#der {
+	padding: 25px;
+}

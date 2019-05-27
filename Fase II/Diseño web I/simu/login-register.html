@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Iniciar sesión y registrarse</title>
+	<link rel="stylesheet" href="css/login-register.css">
+</head>
+<body>
+	<div id="contenedor">
+		<div id="izq">
+			<section id="principal">
+				<p>SIMU es gratuito y fácil de utilizar.</p>
+				<p>Solamente debes de ser mayor de edad y tener la documentación en regla en caso de que quieras vender tu moto.</p>
+
+				<a href="#" id="privacy">Leer la declaración de privacidad.</a>
+			</section>
+
+			<form>
+				<h2>Iniciar sesión</h2>
+
+				<input type="text" required placeholder="Usuario o email">
+				<input type="password" required placeholder="Contraseña">
+				<a href="#"><button>Iniciar sesión</button></a>
+			</form>
+		</div>
+
+		<div id="der">
+			<form>
+				<h2>Registrarse</h2>
+
+				<fieldset>
+					<legend>Datos básicos</legend>
+					<input type="text" placeholder="Nombre de usuario">
+					<input type="text" placeholder="Nombre(s)">
+					<input type="text" placeholder="Apellido(s)">
+					<select name="documento" id="documento" name="documento">
+						<option value="none">Tipo de documento</option>
+						<option value="Cedula">Cedula</option>
+						<option value="Pasaporte">Pasaporte</option>
+						<option value="Cedula de extranjería">Cedula de extranjería</option>
+					</select>
+					<input type="text" placeholder="Número de documento">
+					<label for="fecha">Fecha de nacimiento</label>
+					<input id="fecha" name="fecha" type="date">
+				</fieldset>
+					
+				<fieldset>
+					<legend>Datos de contacto</legend>
+					<input type="text" placeholder="Telefono de contacto">
+					<input type="email" placeholder="Correo electrónico">
+					<input type="email" placeholder="Confirmar correo">
+					<input type="password" placeholder="Contraseña">
+					<input type="password" placeholder="Confirmar contraseña">
+				</fieldset>
+
+				<a href="#"><button>Registrarse</button></a>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

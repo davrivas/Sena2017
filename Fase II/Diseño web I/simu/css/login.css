@@ -1,0 +1,71 @@
+@font-face {
+	font-family: "Titilium Web";
+	src: url(../fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Titilium Web";
+	border: none;
+}
+
+#contenedor {
+	height: 100%;
+	width: 100%;
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+#logoSIMU {
+	width: 300px;
+	height: auto;
+	margin: 20px auto 25px;
+}
+
+h2 {
+	margin-bottom: 25px;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	margin: 5px;
+	border: 1px solid #444;
+	padding: 5px;
+	width: 200px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #555;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	margin: 20px;
+	background-color: #334d99;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	width: 100px;
+	transition: .3s;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #000;
+}
+
+button:hover {
+	background-color: rgba(51,77,153,.9);
+}
